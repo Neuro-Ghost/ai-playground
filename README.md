@@ -23,19 +23,7 @@ To protect infrastructure integrity and maintain strict security compliance, thi
 
 ---
 
-## Repository Structure
 
-ai-playground/
-├── .env.local             # Hidden environment configuration (API Keys)
-├── package.json           # Active dependency manifest
-├── tsconfig.json          # Strict TypeScript compilation rules
-└── src/
-    └── app/
-        ├── layout.tsx     # Global HTML scaffolding & font configuration
-        ├── page.tsx       # Main dashboard client controller interface
-        └── api/
-            └── generate/
-                └── route.ts # Backend secure API endpoint routing logic
 
 ---
 
@@ -45,16 +33,16 @@ Follow these steps to clone, configure, and boot the playground infrastructure l
 
 1. Clone the Codebase:
    git clone <your-github-repository-url>
-   cd ai-playground
+   ```cd ai-playground ```
 
 2. Install Engine Dependencies:
-   npm install
+   ```npm install```
 
 3. Initialize Local Environment Variables:
    Create a file named .env.local in the root directory and paste your key inside:
    GEMINI_API_KEY=AIzaSyYourActualGoogleAIStudioAPIKeyHere
 
 4. Boot Up the Development Server:
-   npm run dev
+   ```npm run dev```
 
 Once initialized, open your browser to http://localhost:3000 to begin running prompt tests through your local architecture.

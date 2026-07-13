@@ -40,7 +40,9 @@ Follow these steps to clone, configure, and boot the playground infrastructure l
 
 3. Initialize Local Environment Variables:
    Create a file named .env.local in the root directory and paste your key inside:
+   ```
    GEMINI_API_KEY=AIzaSyYourActualGoogleAIStudioAPIKeyHere
+   ```
 
 4. Boot Up the Development Server:
    ```npm run dev```

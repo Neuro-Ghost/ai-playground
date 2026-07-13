@@ -32,11 +32,17 @@ To protect infrastructure integrity and maintain strict security compliance, thi
 Follow these steps to clone, configure, and boot the playground infrastructure locally:
 
 1. Clone the Codebase:
-   git clone <your-github-repository-url>
-   ```cd ai-playground ```
+```
+   git clone https://github.com/Neuro-Ghost/ai-playground
+   ```
+   ```
+   cd ai-playground 
+   ```
 
 2. Install Engine Dependencies:
-   ```npm install```
+   ```
+   npm install
+   ```
 
 3. Initialize Local Environment Variables:
    Create a file named .env.local in the root directory and paste your key inside:

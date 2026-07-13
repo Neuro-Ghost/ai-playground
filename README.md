@@ -32,7 +32,7 @@ To protect infrastructure integrity and maintain strict security compliance, thi
 Follow these steps to clone, configure, and boot the playground infrastructure locally:
 
 1. Clone the Codebase:
-```
+   ```
    git clone https://github.com/Neuro-Ghost/ai-playground
    ```
    ```
